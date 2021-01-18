@@ -14,13 +14,10 @@ sanic_config_manager(app, prefix="SANIC_")
 
 if __name__ == "__main__":
 
-    server = app.create_server(
-        host="0.0.0.0",
-        port="8000",
-    )
+    server = app.create_server(host="0.0.0.0", port="8000", return_asyncio_server=True)
     try:
         loop = get_event_loop()
         task = ensure_future(server)
         loop.run_forever()
-    except:
+    except Exception:
         loop.stop()

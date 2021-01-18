@@ -1,7 +1,7 @@
-sanic
-sanic-openapi
-json-logging-py
-gino
+sanic==20.12.1
+sanic-openapi==0.6.2
+json-logging-py==0.2
+gino==0.8.7
 
-opentracing
-jaeger-client
+opentracing==2.4.0
+jaeger-client==4.4.0

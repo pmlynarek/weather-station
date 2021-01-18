@@ -575,3 +575,7 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder
 .mfractor/
 .cache
+
+# Local
+Makefile-dev
+docker-compose-local-dev.yml
