@@ -1,0 +1,7 @@
+sanic
+sanic-openapi
+json-logging-py
+gino
+
+opentracing
+jaeger-client
